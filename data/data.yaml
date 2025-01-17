@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['BSD', 'BSV', 'bus', 'car', 'human', 'motorbike', 'truck']
+
+roboflow:
+  workspace: vehicle6
+  project: vh_tuan2
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vehicle6/vh_tuan2/dataset/5
